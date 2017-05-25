@@ -11,9 +11,7 @@
 /**
 * Creating new class for Events.
 */
-if (class_exists('EventListings')) {
-    $EventListings = new EventListings();
-}
+if (!class_exists ('EventListings')) {
 class EventListings
 {
 	function __construct()
@@ -65,6 +63,7 @@ public function prepend_event_data( $content ) {
 return $content;
 }
 }
-
+new EventListings();
+}
 
 
