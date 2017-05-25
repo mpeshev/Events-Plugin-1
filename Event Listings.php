@@ -4,7 +4,7 @@
  * Description: List and add Events to google calendar and custom wordpress posts.
  * Plugin URI: http://example.org/
  * Author: Bojidar
- * Version : 0.1
+ * Version : 0.3
  * Author URI:
  * License: GPL2
  */
