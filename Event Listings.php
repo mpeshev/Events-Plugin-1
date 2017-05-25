@@ -50,7 +50,7 @@ class EventListings
 				'custom-fields',
 				'page-attributes',
 			),
-				'menu_icon' 					=> 'dashicons-book-alt',
+				'menu_icon' 					=> 'dashicons-location-alt',
 				'taxonomies' 					=> array( 'post_tag' )
 		));	
 	}
