@@ -19,7 +19,7 @@ class EventListings
 	function __construct()
 	{
 		add_action( 'init', array( $this, 'event_listing' ) );
-		add_action( 'the_content', array($this,'prepend_event_data' ) );
+		add_action( 'the_content', array( $this, 'prepend_event_data' ) );
 	}
 	public function event_listing() {
 		register_post_type( 'eventing', array(
